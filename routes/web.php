@@ -23,7 +23,6 @@ Route::get('group/GroupsEditForm/{id}', [UserGroupController::class, 'GroupsEdit
 Route::post('group/GroupsEdit', [UserGroupController::class, 'GroupsEdit']); //  ادیت کردن گروه 
 
 
-
 Route::get('user/Userform', [UserGroupController::class, 'Userform']); // فرم یوزر 
 Route::post('user/AddUserform', [UserGroupController::class, 'AddUserform']); //  ثبت فرم یوزر 
 Route::get('user/UserDelete/{id}', [UserGroupController::class, 'UserDelete']); // پاک کردن کاربر 
